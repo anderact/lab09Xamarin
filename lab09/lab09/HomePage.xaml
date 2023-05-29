@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="lab09.HomePage">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="LAB 08"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+            <Button Text="DynamicDemo" Clicked="DynamicDemo_Clicked"/>
+            <Button Text="ExplicitControlDemo" Clicked="ExplicitControlDemo_Clicked"/>
+            <Button Text="ExplicitDemo" Clicked="ExplicitDemo_Clicked"/>
+            <Button Text="GlobalDemo" Clicked="GlobalDemo_Clicked"/>
+            <Button Text="ImplicitControlDemo" Clicked="ImplicitControlDemo_Clicked"/>
+            <Button Text="ImplicitDemo" Clicked="ImplicitDemo_Clicked"/>
+            <Button Text="InheritanceDemo" Clicked="InheritanceDemo_Clicked"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

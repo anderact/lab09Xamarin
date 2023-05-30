@@ -14,6 +14,7 @@
             <Button Text="ImplicitControlDemo" Clicked="ImplicitControlDemo_Clicked"/>
             <Button Text="ImplicitDemo" Clicked="ImplicitDemo_Clicked"/>
             <Button Text="InheritanceDemo" Clicked="InheritanceDemo_Clicked"/>
+            <Button Text="CSSDemo" Clicked="CSSDemo_Clicked"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

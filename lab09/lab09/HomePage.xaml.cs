@@ -45,5 +45,9 @@ namespace lab09
         {
             await Navigation.PushAsync(new InheritanceDemo());
         }
+        private async void CSSDemo_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new CSSDemo());
+        }
     }
 }

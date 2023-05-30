@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="lab09.CSSDemo">
+    <ContentPage.Resources>
+        <StyleSheet Source="resources/styles.css" />
+    </ContentPage.Resources>
+    <ContentPage.Content>
+        <StackLayout VerticalOptions="Center" StyleClass="container">
+            <StackLayout VerticalOptions="Center" HorizontalOptions="Center" StyleClass="loginPic">
+                <Image Source="https://www.seekpng.com/png/full/788-7882554_aesthetic-roses-tumblr-overlay-circle-cute-pink-interes.png" StyleClass="imgProfile"/>
+            </StackLayout>
+            <StackLayout HorizontalOptions="Center">
+                <Label Text="Form demo"/>
+            </StackLayout>
+            <StackLayout Orientation="Vertical">
+                <Entry Placeholder="Email"/>
+                <Entry Placeholder="Password"/>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
+                <Button Text="Login" StyleClass="btnLogin"/>
+                <Button Text="Register" StyleClass="btnRegister"/>
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
